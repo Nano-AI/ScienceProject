@@ -100,7 +100,7 @@ ul {
         <a href="https://www.grc.nasa.gov/www/k-12/airplane/newton1g.html#:~:text=His%20first%20law%20states%20that,action%20of%20an%20external%20force.&text=The%20amount%20of%20the%20change,Newton's%20second%20law%20of%20motion.">NASA's Website</a>,
         the first law says that "<strong>Every object persists in its state of rest or uniform motion in a straight line
         unless it is compelled to change that state by forces impressed on it.</strong>".<br>
-        In basic terms, an object will stay at rest or go in one direction unless a force is acted upon it.
+        In basic terms, <strong>an object will stay at rest or go in one direction unless another force is acted upon it</strong>.
       </p>
       <img src="./images/tennis_ball.png" id="tennis" height="25">
       <br><br><br>
@@ -109,7 +109,7 @@ ul {
       <h3 class="text-success">&#10004; Pros</h3>
       <h4 class="text-success">You can move around</h4>
       <p>
-        If you couldn't walk before, now you can with Newton's first law.<br>
+        If you couldn't walk before, well you can now with Newton's first law.<br>
         With Newton's law, you can move around, because you can apply force to your legs to move them.
         <br><br><br>
         <img src="./images/person.png" height="25" id="person">
@@ -119,7 +119,7 @@ ul {
       <div>
         <p>
           Objects need a force to be acted upon them in order to move, so that means that they don't just move randomly without anything acting upon it.
-          (It means no random objects hitting you in the head)
+          (It means no random objects hitting you in the head!)
         </p>
       </div>
       <br>
@@ -131,6 +131,7 @@ ul {
         Without Newton's first law, even if you apply force onto it, you can't move. 
         So Newton's first law comes in handy when you want to move objects and make structures.
         Another example could be sports, you can kick/punt/shoot the ball and change the direction of its movement.
+        Newton's law finally makes playing Legos (or do anything else that requires you do move objects) fun for the whole family.
       </p>
       <h3 class="text-danger">&#x274C Cons</h3>
       <img src="./images/factory.gif" class="float-right" width="150px">
@@ -140,7 +141,7 @@ ul {
         it can use up a lot of money which will take money to produce. Not only that,<br>
         some methods of generating energy are harmful to the environment.
       </p>
-      <!-- <img src="./images/crush.gif" class="float-right" width="150px"> -->
+      <img src="./images/crush.gif" class="float-right" width="150px">
       <h4 class="text-danger">You can injure yourself</h4>
       <p>
         Say you're going down a hill really fast on roller blades, you can't stop yourself, because according to Newton's first law,
@@ -152,6 +153,45 @@ ul {
       </p>
     </div>
 
+    <div class="container py-5">
+    <div class="card text-black-50">
+        <div class="card-header">
+            <!-- Credit card form content -->
+            <div class="tab-content">
+                <!-- credit card info-->
+                <div id="credit-card" class="tab-pane fade show active pt-3">
+                    <form role="form">
+                        <div class="form-group"> <label for="username">
+                                <h6>Card Owner</h6>
+                            </label> <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+                        <div class="form-group"> <label for="cardNumber">
+                                <h6>Card number</h6>
+                            </label>
+                            <div class="input-group"> <input type="text" name="cardNumber" placeholder="Valid card number" class="form-control " required>
+                                <div class="input-group-append"> <span class="input-group-text text-muted"> <i class="fab fa-cc-visa mx-1"></i> <i class="fab fa-cc-mastercard mx-1"></i> <i class="fab fa-cc-amex mx-1"></i> </span> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="form-group"> <label><span class="hidden-xs">
+                                            <h6>Expiration Date</h6>
+                                        </span></label>
+                                    <div class="input-group"> <input type="number" placeholder="MM" name="" class="form-control" required> <input type="number" placeholder="YY" name="" class="form-control" required> </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group mb-4"> <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                                        <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
+                                    </label> <input type="text" required class="form-control"> </div>
+                            </div>
+                        </div>
+                        <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm"> Confirm Payment </button>
+                    </form>
+                </div>
+            </div> <!-- End -->
+        </div>
+    </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
